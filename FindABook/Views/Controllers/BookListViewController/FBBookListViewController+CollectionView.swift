@@ -44,7 +44,7 @@ extension FBBookListViewController: UICollectionViewDataSource, UICollectionView
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedBook = self.booksList[indexPath.item]
-        let msg = String(format: "You selected %@ for the by %@", selectedBook.name, selectedBook.author ?? "")
+        let msg = String(format: "You selected %@ by %@", selectedBook.name, selectedBook.author ?? "")
         showMessage(message: msg)
         
     }
