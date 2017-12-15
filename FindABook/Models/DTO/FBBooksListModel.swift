@@ -31,7 +31,7 @@ class FBBookModel : FBBaseMappable {
 
 class FBVolumeInfoModel : FBBaseMappable {
     private(set) var title: String?
-    private(set) var authors: [FBAuthorsModel]?
+    private(set) var authors: [String]?
     private(set) var imageLinks: FBImagesModel?
     
     override func mapping(map: Map) {
@@ -39,10 +39,6 @@ class FBVolumeInfoModel : FBBaseMappable {
         authors <- map [MappingKey.authors]
         imageLinks <- map [MappingKey.imageLinks]
     }
-}
-
-class FBAuthorsModel : FBBaseMappable {
-    
 }
 
 class FBImagesModel : FBBaseMappable {

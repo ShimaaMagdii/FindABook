@@ -25,7 +25,7 @@ class FBMappingManager {
         
         if let books = booksLData?.bookList {
             for book in books {
-                let mappedBook = FBBookViewModel(name: book.volumeInfo?.title ?? "" , coverUrl: book.volumeInfo?.imageLinks?.smallimage, author: "")
+                let mappedBook = FBBookViewModel(name: book.volumeInfo?.title ?? "" , coverUrl: book.volumeInfo?.imageLinks?.smallimage, author: book.volumeInfo?.authors?.flatMap({$0}).joined(separator:", ") ?? "")
                 bookList.append(mappedBook)
             }
         }
