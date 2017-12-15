@@ -28,6 +28,8 @@
 		D49FC5641FE419C8008E59D9 /* FBBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC5631FE419C8008E59D9 /* FBBookCell.swift */; };
 		D49FC5661FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC5651FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift */; };
 		D49FC5681FE4263E008E59D9 /* UIView+CardShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC5671FE4263E008E59D9 /* UIView+CardShadow.swift */; };
+		D49FC56B1FE45FF4008E59D9 /* FBSearchCollectionReusebleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC56A1FE45FF4008E59D9 /* FBSearchCollectionReusebleView.swift */; };
+		D49FC56D1FE4628C008E59D9 /* FBBookListViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC56C1FE4628C008E59D9 /* FBBookListViewController+SearchBar.swift */; };
 		DB7E316379AF1147A80EE3D9 /* Pods_FindABook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8C1B9FC9913D2A4EC10332 /* Pods_FindABook.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		D49FC5631FE419C8008E59D9 /* FBBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBookCell.swift; sourceTree = "<group>"; };
 		D49FC5651FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FBBookListViewController+CollectionView.swift"; sourceTree = "<group>"; };
 		D49FC5671FE4263E008E59D9 /* UIView+CardShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CardShadow.swift"; sourceTree = "<group>"; };
+		D49FC56A1FE45FF4008E59D9 /* FBSearchCollectionReusebleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSearchCollectionReusebleView.swift; sourceTree = "<group>"; };
+		D49FC56C1FE4628C008E59D9 /* FBBookListViewController+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FBBookListViewController+SearchBar.swift"; sourceTree = "<group>"; };
 		D75BDABE5014576DD89829E8 /* Pods-FindABookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindABookTests/Pods-FindABookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2DD4375B3D0316BBA686466 /* Pods-FindABook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindABook/Pods-FindABook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -275,6 +279,7 @@
 			children = (
 				D49FC55F1FE417E8008E59D9 /* FBBookListViewController.swift */,
 				D49FC5651FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift */,
+				D49FC56C1FE4628C008E59D9 /* FBBookListViewController+SearchBar.swift */,
 			);
 			path = BookListViewController;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 		D49FC5621FE419B6008E59D9 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				D49FC56A1FE45FF4008E59D9 /* FBSearchCollectionReusebleView.swift */,
 				D49FC5631FE419C8008E59D9 /* FBBookCell.swift */,
 			);
 			path = CustomCells;
@@ -610,6 +616,8 @@
 				D4058E7B1FE41521009F435F /* FBMappingManager.swift in Sources */,
 				D4058E7E1FE4155A009F435F /* FBBookService.swift in Sources */,
 				D4058E8A1FE41677009F435F /* FBBaseMappable.swift in Sources */,
+				D49FC56B1FE45FF4008E59D9 /* FBSearchCollectionReusebleView.swift in Sources */,
+				D49FC56D1FE4628C008E59D9 /* FBBookListViewController+SearchBar.swift in Sources */,
 				D4058E791FE414E1009F435F /* FBNetwokrManager.swift in Sources */,
 				D4058E841FE415EC009F435F /* FBBaseViewModel.swift in Sources */,
 				D4058E4A1FE410CF009F435F /* AppDelegate.swift in Sources */,

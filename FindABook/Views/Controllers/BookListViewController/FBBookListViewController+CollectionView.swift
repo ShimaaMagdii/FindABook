@@ -27,6 +27,19 @@ extension FBBookListViewController: UICollectionViewDataSource, UICollectionView
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        
+        if (kind == UICollectionElementKindSectionHeader) {
+            let headerView:UICollectionReusableView =  collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: bookListVCContants.searchBardentifier , for: indexPath)
+            
+            return headerView
+        }
+        
+        return UICollectionReusableView()
+    }
+    
+  
+  
     // MARK: - UICollectionViewDelegate protocol
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

@@ -18,7 +18,7 @@ class FBBookListViewController: FBBaseViewController {
     
     // MARK: - Properties
     private  let bookService: FBBookService = FBBookService()
-    //    internal var searchController: UISearchController = UISearchController(searchResultsController: nil)
+    
     
     var booksList = [FBBookViewModel](){
         didSet{
@@ -37,21 +37,21 @@ class FBBookListViewController: FBBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-       
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
-         loadDataWithSearchText(searchText: "love")
+        loadDataWithSearchText(searchText: "love")
     }
     
     // MARK: - Methods
     
     //MARK:- Private Methods
     private func setupView () {
-    
+        
     }
     
-    private func loadDataWithSearchText(searchText: String) {
+    internal func loadDataWithSearchText(searchText: String) {
         showProgressBar()
         bookService.getDataFromApiFor(searchPhrase: searchText, success: {[weak self] (modelArray) in
             guard let strongSelf = self else { return }
