@@ -14,8 +14,8 @@ import UIKit
 struct bookListVCContants {
     static let bookCellIdentifier          :String  = "bookCell"
     static let searchBardentifier          :String  = "searchbarHeader"
+    static let strMsg                      :String  = "You selected %@ by %@"
     
-    static let estimatedRowHeight          :CGFloat = 110.0
 }
 
 struct Network {
