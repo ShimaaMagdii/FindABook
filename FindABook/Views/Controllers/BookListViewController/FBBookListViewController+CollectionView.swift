@@ -22,7 +22,7 @@ extension FBBookListViewController: UICollectionViewDataSource, UICollectionView
         
         // get a reference to our storyboard cell
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: bookListVCContants.bookCellIdentifier, for: indexPath as IndexPath) as! FBBookCell
-        cell.customizeCellWithModel(self.booksList[indexPath.item], completion: {})
+        cell.customizeCellWithModel(self.booksList[indexPath.item])
         
         return cell
     }
@@ -39,7 +39,7 @@ extension FBBookListViewController: UICollectionViewDataSource, UICollectionView
         return UICollectionReusableView()
     }
     
-  
+    
     // MARK: - UICollectionViewDelegate protocol
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

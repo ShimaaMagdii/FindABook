@@ -36,21 +36,11 @@ class FBBookListViewController: FBBaseViewController {
     // MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupView()
-        
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        loadDataWithSearchText(searchText: "love")
     }
     
     // MARK: - Methods
     
     //MARK:- Private Methods
-    private func setupView () {
-        
-    }
-    
     internal func loadDataWithSearchText(searchText: String) {
         showProgressBar()
         bookService.getDataFromApiFor(searchPhrase: searchText, success: {[weak self] (modelArray) in
@@ -62,8 +52,6 @@ class FBBookListViewController: FBBaseViewController {
             strongSelf.hideProgressBar()
             strongSelf.handleError(error: error)
         }
-        
-        
     }
 }
 

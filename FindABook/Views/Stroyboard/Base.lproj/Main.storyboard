@@ -43,15 +43,15 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defult_cover" translatesAutoresizingMaskIntoConstraints="NO" id="EbB-40-G00">
-                                                            <rect key="frame" x="5" y="45" width="150" height="170"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EbB-40-G00">
+                                                            <rect key="frame" x="15" y="45" width="130" height="170"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="170" id="7Jr-36-n3m"/>
-                                                                <constraint firstAttribute="width" constant="150" id="LQZ-Nl-1ji"/>
+                                                                <constraint firstAttribute="width" constant="130" id="LQZ-Nl-1ji"/>
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstItem="nhv-4H-6dA" firstAttribute="top" secondItem="pyK-RT-dQa" secondAttribute="top" constant="5" id="FEf-My-iaG"/>
                                                         <constraint firstItem="nhv-4H-6dA" firstAttribute="leading" secondItem="pyK-RT-dQa" secondAttribute="leading" constant="2" id="IfC-jp-fAE"/>
@@ -120,7 +120,4 @@
             </objects>
         </scene>
     </scenes>
-    <resources>
-        <image name="defult_cover" width="512" height="512"/>
-    </resources>
 </document>

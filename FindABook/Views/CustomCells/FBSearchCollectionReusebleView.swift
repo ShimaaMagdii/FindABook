@@ -12,7 +12,4 @@ class FBSearchCollectionReusebleView :UICollectionReusableView {
     // MARK: - Outlets
     @IBOutlet weak var searchBar: UISearchBar!
     
-    
-    //    internal var searchController: UISearchController = UISearchController(searchResultsController: nil)
-    
 }
