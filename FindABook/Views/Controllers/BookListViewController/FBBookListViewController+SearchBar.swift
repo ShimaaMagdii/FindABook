@@ -15,13 +15,7 @@ extension FBBookListViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         if(!(searchBar.text?.isEmpty)!){
-            self.loadDataWithSearchText(searchText: searchBar.text!)
-        }
-    }
-    
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        if(searchText.isEmpty){
-          
+            searchText = searchBar.text!
         }
     }
     
