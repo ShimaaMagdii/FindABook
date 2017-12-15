@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6D8979221A40D45C47AD3C /* Pods_FindABookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C84B0CEA24BFBBAD8563765 /* Pods_FindABookTests.framework */; };
+		B62E3602D019CE52A1FC1102 /* Pods_FindABookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54533D80EF766DBB58EC6DD0 /* Pods_FindABookUITests.framework */; };
 		D4058E4A1FE410CF009F435F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E491FE410CF009F435F /* AppDelegate.swift */; };
-		D4058E4C1FE410CF009F435F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E4B1FE410CF009F435F /* ViewController.swift */; };
 		D4058E4F1FE410CF009F435F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4058E4D1FE410CF009F435F /* Main.storyboard */; };
 		D4058E511FE410CF009F435F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4058E501FE410CF009F435F /* Assets.xcassets */; };
 		D4058E541FE410CF009F435F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4058E521FE410CF009F435F /* LaunchScreen.storyboard */; };
 		D4058E5F1FE410CF009F435F /* FindABookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E5E1FE410CF009F435F /* FindABookTests.swift */; };
 		D4058E6A1FE410CF009F435F /* FindABookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E691FE410CF009F435F /* FindABookUITests.swift */; };
+		D4058E791FE414E1009F435F /* FBNetwokrManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E781FE414E1009F435F /* FBNetwokrManager.swift */; };
+		D4058E7B1FE41521009F435F /* FBMappingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E7A1FE41521009F435F /* FBMappingManager.swift */; };
+		D4058E7E1FE4155A009F435F /* FBBookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E7D1FE4155A009F435F /* FBBookService.swift */; };
+		D4058E811FE4159B009F435F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E801FE4159B009F435F /* Constants.swift */; };
+		D4058E841FE415EC009F435F /* FBBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E831FE415EC009F435F /* FBBaseViewModel.swift */; };
+		D4058E861FE41618009F435F /* FBBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E851FE41618009F435F /* FBBookViewModel.swift */; };
+		D4058E8A1FE41677009F435F /* FBBaseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E891FE41677009F435F /* FBBaseMappable.swift */; };
+		D4058E8D1FE416A9009F435F /* FBBooksListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4058E8C1FE416A9009F435F /* FBBooksListModel.swift */; };
+		D49FC55D1FE4178F008E59D9 /* FBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC55C1FE4178F008E59D9 /* FBBaseViewController.swift */; };
+		D49FC5601FE417E8008E59D9 /* FBBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC55F1FE417E8008E59D9 /* FBBookListViewController.swift */; };
+		D49FC5641FE419C8008E59D9 /* FBBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC5631FE419C8008E59D9 /* FBBookCell.swift */; };
+		D49FC5661FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC5651FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift */; };
+		D49FC5681FE4263E008E59D9 /* UIView+CardShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49FC5671FE4263E008E59D9 /* UIView+CardShadow.swift */; };
+		DB7E316379AF1147A80EE3D9 /* Pods_FindABook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8C1B9FC9913D2A4EC10332 /* Pods_FindABook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04814B9757CA35F08CB29C19 /* Pods-FindABook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABook.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindABook/Pods-FindABook.release.xcconfig"; sourceTree = "<group>"; };
+		05CB7EA9EC16CDA09165B874 /* Pods-FindABookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindABookUITests/Pods-FindABookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C8C1B9FC9913D2A4EC10332 /* Pods_FindABook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindABook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C84B0CEA24BFBBAD8563765 /* Pods_FindABookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindABookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48668A053D33C3E3D5BFA190 /* Pods-FindABookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindABookUITests/Pods-FindABookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54533D80EF766DBB58EC6DD0 /* Pods_FindABookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindABookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB53C77382D8458D505729 /* Pods-FindABookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindABookTests/Pods-FindABookTests.release.xcconfig"; sourceTree = "<group>"; };
 		D4058E461FE410CF009F435F /* FindABook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindABook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4058E491FE410CF009F435F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4058E4B1FE410CF009F435F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4058E4E1FE410CF009F435F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4058E501FE410CF009F435F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4058E531FE410CF009F435F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,21 @@
 		D4058E651FE410CF009F435F /* FindABookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindABookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4058E691FE410CF009F435F /* FindABookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindABookUITests.swift; sourceTree = "<group>"; };
 		D4058E6B1FE410CF009F435F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4058E781FE414E1009F435F /* FBNetwokrManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNetwokrManager.swift; sourceTree = "<group>"; };
+		D4058E7A1FE41521009F435F /* FBMappingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMappingManager.swift; sourceTree = "<group>"; };
+		D4058E7D1FE4155A009F435F /* FBBookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBookService.swift; sourceTree = "<group>"; };
+		D4058E801FE4159B009F435F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D4058E831FE415EC009F435F /* FBBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBaseViewModel.swift; sourceTree = "<group>"; };
+		D4058E851FE41618009F435F /* FBBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBookViewModel.swift; sourceTree = "<group>"; };
+		D4058E891FE41677009F435F /* FBBaseMappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBaseMappable.swift; sourceTree = "<group>"; };
+		D4058E8C1FE416A9009F435F /* FBBooksListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBooksListModel.swift; sourceTree = "<group>"; };
+		D49FC55C1FE4178F008E59D9 /* FBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBaseViewController.swift; sourceTree = "<group>"; };
+		D49FC55F1FE417E8008E59D9 /* FBBookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBookListViewController.swift; sourceTree = "<group>"; };
+		D49FC5631FE419C8008E59D9 /* FBBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBookCell.swift; sourceTree = "<group>"; };
+		D49FC5651FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FBBookListViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		D49FC5671FE4263E008E59D9 /* UIView+CardShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CardShadow.swift"; sourceTree = "<group>"; };
+		D75BDABE5014576DD89829E8 /* Pods-FindABookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindABookTests/Pods-FindABookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2DD4375B3D0316BBA686466 /* Pods-FindABook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindABook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindABook/Pods-FindABook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7E316379AF1147A80EE3D9 /* Pods_FindABook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6D8979221A40D45C47AD3C /* Pods_FindABookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62E3602D019CE52A1FC1102 /* Pods_FindABookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD42C09F1DF0D7E1A1869737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2DD4375B3D0316BBA686466 /* Pods-FindABook.debug.xcconfig */,
+				04814B9757CA35F08CB29C19 /* Pods-FindABook.release.xcconfig */,
+				D75BDABE5014576DD89829E8 /* Pods-FindABookTests.debug.xcconfig */,
+				67BB53C77382D8458D505729 /* Pods-FindABookTests.release.xcconfig */,
+				05CB7EA9EC16CDA09165B874 /* Pods-FindABookUITests.debug.xcconfig */,
+				48668A053D33C3E3D5BFA190 /* Pods-FindABookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D4058E3D1FE410CF009F435F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				D4058E5D1FE410CF009F435F /* FindABookTests */,
 				D4058E681FE410CF009F435F /* FindABookUITests */,
 				D4058E471FE410CF009F435F /* Products */,
+				BD42C09F1DF0D7E1A1869737 /* Pods */,
+				F6E68A5BA289FE0557D18353 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +151,11 @@
 		D4058E481FE410CF009F435F /* FindABook */ = {
 			isa = PBXGroup;
 			children = (
-				D4058E491FE410CF009F435F /* AppDelegate.swift */,
-				D4058E4B1FE410CF009F435F /* ViewController.swift */,
-				D4058E4D1FE410CF009F435F /* Main.storyboard */,
+				D4058E821FE415DD009F435F /* Models */,
+				D49FC5591FE41758008E59D9 /* Views */,
+				D4058E7F1FE4158D009F435F /* Utils */,
+				D4058E7C1FE41549009F435F /* Service */,
+				D4058E771FE414C0009F435F /* Network */,
 				D4058E501FE410CF009F435F /* Assets.xcassets */,
 				D4058E521FE410CF009F435F /* LaunchScreen.storyboard */,
 				D4058E551FE410CF009F435F /* Info.plist */,
@@ -125,6 +181,130 @@
 			path = FindABookUITests;
 			sourceTree = "<group>";
 		};
+		D4058E771FE414C0009F435F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E781FE414E1009F435F /* FBNetwokrManager.swift */,
+				D4058E7A1FE41521009F435F /* FBMappingManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D4058E7C1FE41549009F435F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E7D1FE4155A009F435F /* FBBookService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D4058E7F1FE4158D009F435F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E491FE410CF009F435F /* AppDelegate.swift */,
+				D4058E801FE4159B009F435F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D4058E821FE415DD009F435F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E881FE4165D009F435F /* DTO */,
+				D4058E871FE4164F009F435F /* ViewModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4058E871FE4164F009F435F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E831FE415EC009F435F /* FBBaseViewModel.swift */,
+				D4058E851FE41618009F435F /* FBBookViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4058E881FE4165D009F435F /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E891FE41677009F435F /* FBBaseMappable.swift */,
+				D4058E8C1FE416A9009F435F /* FBBooksListModel.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		D49FC5591FE41758008E59D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D49FC5691FE426BD008E59D9 /* CustomViews */,
+				D49FC5621FE419B6008E59D9 /* CustomCells */,
+				D49FC55B1FE41769008E59D9 /* Controllers */,
+				D49FC55A1FE41761008E59D9 /* Stroyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D49FC55A1FE41761008E59D9 /* Stroyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D4058E4D1FE410CF009F435F /* Main.storyboard */,
+			);
+			path = Stroyboard;
+			sourceTree = "<group>";
+		};
+		D49FC55B1FE41769008E59D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D49FC5611FE417F4008E59D9 /* BookListViewController */,
+				D49FC55E1FE417C9008E59D9 /* BaseController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D49FC55E1FE417C9008E59D9 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				D49FC55C1FE4178F008E59D9 /* FBBaseViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		D49FC5611FE417F4008E59D9 /* BookListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D49FC55F1FE417E8008E59D9 /* FBBookListViewController.swift */,
+				D49FC5651FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift */,
+			);
+			path = BookListViewController;
+			sourceTree = "<group>";
+		};
+		D49FC5621FE419B6008E59D9 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				D49FC5631FE419C8008E59D9 /* FBBookCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		D49FC5691FE426BD008E59D9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D49FC5671FE4263E008E59D9 /* UIView+CardShadow.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		F6E68A5BA289FE0557D18353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C1B9FC9913D2A4EC10332 /* Pods_FindABook.framework */,
+				3C84B0CEA24BFBBAD8563765 /* Pods_FindABookTests.framework */,
+				54533D80EF766DBB58EC6DD0 /* Pods_FindABookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4058E6E1FE410CF009F435F /* Build configuration list for PBXNativeTarget "FindABook" */;
 			buildPhases = (
+				2A2D364ADB86E661F07B2C78 /* [CP] Check Pods Manifest.lock */,
 				D4058E421FE410CF009F435F /* Sources */,
 				D4058E431FE410CF009F435F /* Frameworks */,
 				D4058E441FE410CF009F435F /* Resources */,
+				453D952309286428D52CFAFF /* [CP] Embed Pods Frameworks */,
+				73CB787A05E7034A3A73B40A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4058E711FE410CF009F435F /* Build configuration list for PBXNativeTarget "FindABookTests" */;
 			buildPhases = (
+				1B6502510900E81A1D036964 /* [CP] Check Pods Manifest.lock */,
 				D4058E561FE410CF009F435F /* Sources */,
 				D4058E571FE410CF009F435F /* Frameworks */,
 				D4058E581FE410CF009F435F /* Resources */,
+				EA2BB7D4558B6F9491808C14 /* [CP] Embed Pods Frameworks */,
+				1616484D766FD04F57DCA54F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4058E741FE410CF009F435F /* Build configuration list for PBXNativeTarget "FindABookUITests" */;
 			buildPhases = (
+				BEA4382D1DF1384804768433 /* [CP] Check Pods Manifest.lock */,
 				D4058E611FE410CF009F435F /* Sources */,
 				D4058E621FE410CF009F435F /* Frameworks */,
 				D4058E631FE410CF009F435F /* Resources */,
+				532E7D68C113B2A656670DFC /* [CP] Embed Pods Frameworks */,
+				9DFDBA6BEA8D07A230469905 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +443,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1616484D766FD04F57DCA54F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindABookTests/Pods-FindABookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B6502510900E81A1D036964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindABookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2D364ADB86E661F07B2C78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindABook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		453D952309286428D52CFAFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindABook/Pods-FindABook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindABook/Pods-FindABook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532E7D68C113B2A656670DFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindABookUITests/Pods-FindABookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73CB787A05E7034A3A73B40A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindABook/Pods-FindABook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DFDBA6BEA8D07A230469905 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindABookUITests/Pods-FindABookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA4382D1DF1384804768433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindABookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2BB7D4558B6F9491808C14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindABookTests/Pods-FindABookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4058E421FE410CF009F435F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4058E4C1FE410CF009F435F /* ViewController.swift in Sources */,
+				D49FC5661FE41A21008E59D9 /* FBBookListViewController+CollectionView.swift in Sources */,
+				D4058E8D1FE416A9009F435F /* FBBooksListModel.swift in Sources */,
+				D49FC5641FE419C8008E59D9 /* FBBookCell.swift in Sources */,
+				D4058E7B1FE41521009F435F /* FBMappingManager.swift in Sources */,
+				D4058E7E1FE4155A009F435F /* FBBookService.swift in Sources */,
+				D4058E8A1FE41677009F435F /* FBBaseMappable.swift in Sources */,
+				D4058E791FE414E1009F435F /* FBNetwokrManager.swift in Sources */,
+				D4058E841FE415EC009F435F /* FBBaseViewModel.swift in Sources */,
 				D4058E4A1FE410CF009F435F /* AppDelegate.swift in Sources */,
+				D4058E811FE4159B009F435F /* Constants.swift in Sources */,
+				D4058E861FE41618009F435F /* FBBookViewModel.swift in Sources */,
+				D49FC55D1FE4178F008E59D9 /* FBBaseViewController.swift in Sources */,
+				D49FC5681FE4263E008E59D9 /* UIView+CardShadow.swift in Sources */,
+				D49FC5601FE417E8008E59D9 /* FBBookListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +781,11 @@
 		};
 		D4058E6F1FE410CF009F435F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DD4375B3D0316BBA686466 /* Pods-FindABook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SK6WUB3TZG;
 				INFOPLIST_FILE = FindABook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Holidu.FindABook;
@@ -438,9 +797,11 @@
 		};
 		D4058E701FE410CF009F435F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04814B9757CA35F08CB29C19 /* Pods-FindABook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SK6WUB3TZG;
 				INFOPLIST_FILE = FindABook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Holidu.FindABook;
@@ -452,6 +813,7 @@
 		};
 		D4058E721FE410CF009F435F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75BDABE5014576DD89829E8 /* Pods-FindABookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +830,7 @@
 		};
 		D4058E731FE410CF009F435F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BB53C77382D8458D505729 /* Pods-FindABookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +847,7 @@
 		};
 		D4058E751FE410CF009F435F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CB7EA9EC16CDA09165B874 /* Pods-FindABookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +863,7 @@
 		};
 		D4058E761FE410CF009F435F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48668A053D33C3E3D5BFA190 /* Pods-FindABookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
