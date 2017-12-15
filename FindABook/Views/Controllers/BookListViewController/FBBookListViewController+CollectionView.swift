@@ -27,6 +27,7 @@ extension FBBookListViewController: UICollectionViewDataSource, UICollectionView
         return cell
     }
     
+    // to adding search bar as header view
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         
         if (kind == UICollectionElementKindSectionHeader) {
@@ -38,7 +39,6 @@ extension FBBookListViewController: UICollectionViewDataSource, UICollectionView
         return UICollectionReusableView()
     }
     
-  
   
     // MARK: - UICollectionViewDelegate protocol
     
